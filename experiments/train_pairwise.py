@@ -20,7 +20,7 @@ OUTPUT_DIR = "artifacts/pairwise_complementarity_v1"
 
 
 def load_training_data():
-    path = Path("data/train_pairs.json")
+    path = Path("data/training/train_pairs.json")
 
     records = json.loads(
         path.read_text(encoding="utf-8")
