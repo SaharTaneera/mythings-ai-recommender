@@ -1,0 +1,22 @@
+# Local prototype stack; launch the React demo separately via npm.
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama-models:/root/.ollama
+    restart: unless-stopped
+  api:
+    build: .
+    environment:
+      OLLAMA_URL: http://ollama:11434/api/chat
+      HF_HOME: /home/app/.cache/huggingface
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - huggingface-cache:/home/app/.cache/huggingface
+    depends_on:
+      - ollama
+    restart: unless-stopped
+volumes:
+  ollama-models:
+  huggingface-cache:
