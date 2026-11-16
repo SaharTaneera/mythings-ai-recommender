@@ -17,6 +17,7 @@ Repeated classifications are cached within the running Python process.
 """
 
 import json
+import os
 from functools import lru_cache
 
 import httpx
@@ -25,7 +26,7 @@ from mythings_ai_recommender.schemas.product import Product
 
 
 # Local Ollama inference endpoint and the selected model.
-OLLAMA_URL = "http://127.0.0.1:11434/api/chat"
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434/api/chat")
 MODEL_NAME = "qwen2.5:7b"
 
 RELATIONSHIPS = {
