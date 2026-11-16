@@ -1,5 +1,5 @@
 
-from mythings_ai_recommender.models.complementarity import (
+from experiments.complementarity import (
     semantic_pairing_score,
 )
 
