@@ -115,8 +115,8 @@ def make_records():
 
 
 def main():
-    output_dir = Path("data")
-    output_dir.mkdir(exist_ok=True)
+    output_dir = Path("data/training")
+    output_dir.mkdir(parents=True, exist_ok=True)
 
     training, evaluation = make_records()
 
