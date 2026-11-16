@@ -1,0 +1,33 @@
+[project]
+name = "mythings-ai-recommender"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sahar", email = "taneerasahar@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.2.0",
+    "fastapi>=0.163.1",
+    "huggingface-hub>=2.4.0",
+    "numpy>=2.5.5",
+    "pydantic-settings>=2.16.3",
+    "sentence-transformers>=6.3.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[project.scripts]
+mythings-ai-recommender = "mythings_ai_recommender:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]

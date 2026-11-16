@@ -1,0 +1,101 @@
+﻿id,cart_product,candidate,expected,domain,language,label_source,predicted,correct,latency_seconds
+T001,Beef Burger,French Fries,complement,restaurant,en-en,synthetic_proposed,complement,True,7.6761
+T002,Beef Burger,Garlic Mayo Dip,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3531
+T003,Chicken Shawarma,Pickled Turnips,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3726
+T004,Falafel Sandwich,Tahini Sauce,complement,restaurant,en-en,synthetic_proposed,complement,True,0.356
+T005,Grilled Chicken,Garlic Bread,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3644
+T006,Pizza Margherita,Side Green Salad,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3725
+T007,Fried Chicken Wings,Ranch Dip,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3593
+T008,Kebab Plate,Flatbread,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3556
+T009,Fish and Chips,Tartar Sauce,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3483
+T010,Chicken Biryani,Cucumber Raita,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3665
+T011,Cheese Manakish,Mint Tea,complement,restaurant,en-en,synthetic_proposed,complement,True,0.372
+T012,Grilled Halloumi Sandwich,Iced Lemonade,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3822
+T013,Chicken Tenders,Honey Mustard Dip,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3608
+T014,Pancakes,Maple Syrup,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3734
+T015,Chocolate Cake,Vanilla Ice Cream,complement,restaurant,en-en,synthetic_proposed,complement,True,0.3703
+T016,Beef Burger,Double Beef Burger,substitute,restaurant,en-en,synthetic_proposed,substitute,True,0.3655
+T017,Chicken Shawarma Wrap,Beef Shawarma Wrap,substitute,restaurant,en-en,synthetic_proposed,substitute,True,0.3611
+T018,Margherita Pizza,Pepperoni Pizza,substitute,restaurant,en-en,synthetic_proposed,substitute,True,0.3616
+T019,Falafel Sandwich,Falafel Wrap,substitute,restaurant,en-en,synthetic_proposed,uncertain,False,0.3672
+T020,Grilled Chicken Sandwich,Crispy Chicken Sandwich,substitute,restaurant,en-en,synthetic_proposed,uncertain,False,0.379
+T021,French Fries,Curly Fries,substitute,restaurant,en-en,synthetic_proposed,complement,False,0.3739
+T022,Cola Can 330ml,Diet Cola Can 330ml,substitute,restaurant,en-en,synthetic_proposed,substitute,True,0.3749
+T023,Orange Juice,Apple Juice,substitute,restaurant,en-en,synthetic_proposed,unrelated,False,0.3667
+T024,Beef Kebab Sandwich,Lamb Kebab Sandwich,substitute,restaurant,en-en,synthetic_proposed,substitute,True,0.3686
+T025,Plain Croissant,Butter Croissant,substitute,restaurant,en-en,synthetic_proposed,complement,False,0.3641
+T026,Chicken Shawarma,Chocolate Dessert Topping,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3696
+T027,Beef Burger,Birthday Cake Candles,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3509
+T028,Pasta Carbonara,Strawberry Jam,unrelated,restaurant,en-en,synthetic_proposed,complement,False,0.3869
+T029,Grilled Fish,Vanilla Frosting,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3991
+T030,Falafel Sandwich,Chocolate Syrup,unrelated,restaurant,en-en,synthetic_proposed,complement,False,0.3567
+T031,Chicken Biryani,Whipped Cream,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3558
+T032,Cheese Pizza,Caramel Dessert Sauce,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3705
+T033,Chicken Wings,Cupcake Sprinkles,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3617
+T034,Kebab Platter,Chocolate Chips for Baking,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3666
+T035,Hummus Plate,Birthday Balloons,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3561
+T036,Grilled Chicken,Chocolate Ganache,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.355
+T037,Shawarma Plate,Marshmallow Dessert Topping,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.368
+T038,Chicken Sandwich,Cake Icing,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.372
+T039,Steak Dinner,Raspberry Cake Glaze,unrelated,restaurant,en-en,synthetic_proposed,unrelated,True,0.3622
+T040,Cold Brew Coffee,Unspecified Restaurant Special,uncertain,restaurant,en-en,synthetic_proposed,uncertain,True,0.3405
+T041,Dry Spaghetti,Tomato Basil Pasta Sauce,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3515
+T042,Ground Coffee,Coffee Filters,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3572
+T043,Laundry Detergent,Fabric Softener,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3775
+T044,Tortilla Wraps,Salsa Dip,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3738
+T045,Rice,Dried Lentils,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3563
+T046,Dishwashing Liquid,Dish Sponge,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3607
+T047,Breakfast Cereal,Milk,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3445
+T048,Bread Loaf,Peanut Butter,complement,grocery_household,en-en,synthetic_proposed,complement,True,0.3759
+T049,Ground Coffee 250g,Ground Coffee 500g,substitute,grocery_household,en-en,synthetic_proposed,substitute,True,0.3665
+T050,Cow Milk 1L,Lactose Free Cow Milk 1L,substitute,grocery_household,en-en,synthetic_proposed,substitute,True,0.3704
+T051,Olive Oil Brand A,Olive Oil Brand B,substitute,grocery_household,en-en,synthetic_proposed,uncertain,False,0.3527
+T052,White Rice 1kg,Basmati Rice 1kg,substitute,grocery_household,en-en,synthetic_proposed,complement,False,0.3568
+T053,Powder Laundry Detergent,Liquid Laundry Detergent,substitute,grocery_household,en-en,synthetic_proposed,substitute,True,0.3721
+T054,Tomato Ketchup Brand A,Tomato Ketchup Brand B,substitute,grocery_household,en-en,synthetic_proposed,uncertain,False,0.37
+T055,Dishwashing Liquid,Printer Ink Cartridge,unrelated,grocery_household,en-en,synthetic_proposed,unrelated,True,0.3739
+T056,Pasta Sauce,AA Batteries,unrelated,grocery_household,en-en,synthetic_proposed,unrelated,True,0.3689
+T057,Flour,Shower Curtain Rings,unrelated,grocery_household,en-en,synthetic_proposed,unrelated,True,0.3662
+T058,Frozen Peas,Car Phone Mount,unrelated,grocery_household,en-en,synthetic_proposed,unrelated,True,0.3539
+T059,Toilet Paper,Chocolate Baking Chips,unrelated,grocery_household,en-en,synthetic_proposed,unrelated,True,0.3761
+T060,Generic Seasoning Mix,Unlabeled Sauce Packet,uncertain,grocery_household,en-en,synthetic_proposed,complement,False,0.3775
+T061,USB-C Laptop,USB-C Compatible Docking Station,complement,electronics,en-en,synthetic_proposed,complement,True,0.3621
+T062,Digital Camera,Memory Card Compatible with Camera,complement,electronics,en-en,synthetic_proposed,complement,True,0.3561
+T063,Wireless Mouse,AA Batteries for Mouse,complement,electronics,en-en,synthetic_proposed,complement,True,0.3608
+T064,Smartphone Model A,Case Designed for Smartphone Model A,complement,electronics,en-en,synthetic_proposed,complement,True,0.361
+T065,Laptop,Laptop Stand,complement,electronics,en-en,synthetic_proposed,complement,True,0.3802
+T066,Mirrorless Camera,Camera Cleaning Kit,complement,electronics,en-en,synthetic_proposed,complement,True,0.3758
+T067,Bluetooth Headphones Model X,Bluetooth Headphones Model Y,substitute,electronics,en-en,synthetic_proposed,substitute,True,0.3651
+T068,Laptop 14-inch Model A,Laptop 14-inch Model B,substitute,electronics,en-en,synthetic_proposed,substitute,True,0.3707
+T069,USB-C Charging Cable 1m,USB-C Charging Cable 2m,substitute,electronics,en-en,synthetic_proposed,complement,False,0.3738
+T070,Gaming Keyboard A,Gaming Keyboard B,substitute,electronics,en-en,synthetic_proposed,substitute,True,0.3563
+T071,Wireless Router,Hair Conditioner,unrelated,electronics,en-en,synthetic_proposed,unrelated,True,0.3654
+T072,USB Flash Drive,Cooking Spatula,unrelated,electronics,en-en,synthetic_proposed,unrelated,True,0.3536
+T073,Laptop Power Adapter,Chocolate Sauce,unrelated,electronics,en-en,synthetic_proposed,unrelated,True,0.3893
+T074,Smartphone Charger,Garden Shovel,unrelated,electronics,en-en,synthetic_proposed,unrelated,True,0.369
+T075,Phone Model X,Unspecified Phone Case,uncertain,electronics,en-en,synthetic_proposed,complement,False,0.3649
+T076,Face Cleanser,Facial Moisturizer,complement,personal_care,en-en,synthetic_proposed,complement,True,0.3781
+T077,Shampoo,Rinse-out Conditioner,complement,personal_care,en-en,synthetic_proposed,complement,True,0.3676
+T078,Toothbrush,Toothpaste,complement,personal_care,en-en,synthetic_proposed,complement,True,0.3633
+T079,Nail Polish,Nail Polish Remover,complement,personal_care,en-en,synthetic_proposed,complement,True,0.3815
+T080,Electric Toothbrush,Compatible Replacement Brush Heads,complement,personal_care,en-en,synthetic_proposed,complement,True,0.3625
+T081,Hair Dye Kit,Protective Gloves,complement,personal_care,en-en,synthetic_proposed,unrelated,False,0.3613
+T082,Facial Sunscreen Brand A SPF50,Facial Sunscreen Brand B SPF50,substitute,personal_care,en-en,synthetic_proposed,substitute,True,0.3632
+T083,Shampoo Brand A,Shampoo Brand B,substitute,personal_care,en-en,synthetic_proposed,uncertain,False,0.3421
+T084,Moisturizing Face Cream A,Moisturizing Face Cream B,substitute,personal_care,en-en,synthetic_proposed,substitute,True,0.374
+T085,Manual Toothbrush Soft,Manual Toothbrush Medium,substitute,personal_care,en-en,synthetic_proposed,substitute,True,0.3749
+T086,Lip Balm Brand A,Lip Balm Brand B,substitute,personal_care,en-en,synthetic_proposed,uncertain,False,0.3787
+T087,Face Wash,USB-C Power Bank,unrelated,personal_care,en-en,synthetic_proposed,unrelated,True,0.367
+T088,Conditioner,Printer Paper,unrelated,personal_care,en-en,synthetic_proposed,unrelated,True,0.3609
+T089,Body Lotion,Laptop Adapter,unrelated,personal_care,en-en,synthetic_proposed,unrelated,True,0.3586
+T090,Hair Styling Device,Unknown Connector Accessory,uncertain,personal_care,en-en,synthetic_proposed,uncertain,True,0.3673
+T091,شاورما لحم,مخلل لفت,complement,arabic_mixed,ar-ar,synthetic_proposed,complement,True,0.372
+T092,منسف أردني,لبن جميد إضافي,complement,arabic_mixed,ar-ar,synthetic_proposed,complement,True,0.3883
+T093,برغر دجاج,صوص ثوم,complement,arabic_mixed,ar-ar,synthetic_proposed,complement,True,0.3701
+T094,Chicken Shawarma,بطاطا ودجز,complement,arabic_mixed,en-ar,synthetic_proposed,complement,True,0.3632
+T095,هاتف سامسونج موديل A,غطاء مخصص لموديل A,complement,arabic_mixed,ar-ar,synthetic_proposed,complement,True,0.3845
+T096,شاورما دجاج,شاورما لحم,substitute,arabic_mixed,ar-ar,synthetic_proposed,complement,False,0.3465
+T097,عصير برتقال طبيعي,عصير تفاح طبيعي,substitute,arabic_mixed,ar-ar,synthetic_proposed,complement,False,0.3552
+T098,شامبو ماركة أ,Shampoo Brand B,substitute,arabic_mixed,ar-en,synthetic_proposed,uncertain,False,0.3891
+T099,كنافة بالجبنة,معجون أسنان,unrelated,arabic_mixed,ar-ar,synthetic_proposed,unrelated,True,0.3783
+T100,شاورما دجاج,صوص شوكولاتة للحلويات,unrelated,arabic_mixed,ar-ar,synthetic_proposed,unrelated,True,0.3647

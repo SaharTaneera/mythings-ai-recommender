@@ -1,0 +1,902 @@
+[
+  {
+    "id": "T001",
+    "cart_product": "Beef Burger",
+    "candidate": "French Fries",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T002",
+    "cart_product": "Beef Burger",
+    "candidate": "Garlic Mayo Dip",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T003",
+    "cart_product": "Chicken Shawarma",
+    "candidate": "Pickled Turnips",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T004",
+    "cart_product": "Falafel Sandwich",
+    "candidate": "Tahini Sauce",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T005",
+    "cart_product": "Grilled Chicken",
+    "candidate": "Garlic Bread",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T006",
+    "cart_product": "Pizza Margherita",
+    "candidate": "Side Green Salad",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T007",
+    "cart_product": "Fried Chicken Wings",
+    "candidate": "Ranch Dip",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T008",
+    "cart_product": "Kebab Plate",
+    "candidate": "Flatbread",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T009",
+    "cart_product": "Fish and Chips",
+    "candidate": "Tartar Sauce",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T010",
+    "cart_product": "Chicken Biryani",
+    "candidate": "Cucumber Raita",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T011",
+    "cart_product": "Cheese Manakish",
+    "candidate": "Mint Tea",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T012",
+    "cart_product": "Grilled Halloumi Sandwich",
+    "candidate": "Iced Lemonade",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T013",
+    "cart_product": "Chicken Tenders",
+    "candidate": "Honey Mustard Dip",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T014",
+    "cart_product": "Pancakes",
+    "candidate": "Maple Syrup",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T015",
+    "cart_product": "Chocolate Cake",
+    "candidate": "Vanilla Ice Cream",
+    "expected": "complement",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T016",
+    "cart_product": "Beef Burger",
+    "candidate": "Double Beef Burger",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T017",
+    "cart_product": "Chicken Shawarma Wrap",
+    "candidate": "Beef Shawarma Wrap",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T018",
+    "cart_product": "Margherita Pizza",
+    "candidate": "Pepperoni Pizza",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T019",
+    "cart_product": "Falafel Sandwich",
+    "candidate": "Falafel Wrap",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T020",
+    "cart_product": "Grilled Chicken Sandwich",
+    "candidate": "Crispy Chicken Sandwich",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T021",
+    "cart_product": "French Fries",
+    "candidate": "Curly Fries",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T022",
+    "cart_product": "Cola Can 330ml",
+    "candidate": "Diet Cola Can 330ml",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T023",
+    "cart_product": "Orange Juice",
+    "candidate": "Apple Juice",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T024",
+    "cart_product": "Beef Kebab Sandwich",
+    "candidate": "Lamb Kebab Sandwich",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T025",
+    "cart_product": "Plain Croissant",
+    "candidate": "Butter Croissant",
+    "expected": "substitute",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T026",
+    "cart_product": "Chicken Shawarma",
+    "candidate": "Chocolate Dessert Topping",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T027",
+    "cart_product": "Beef Burger",
+    "candidate": "Birthday Cake Candles",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T028",
+    "cart_product": "Pasta Carbonara",
+    "candidate": "Strawberry Jam",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T029",
+    "cart_product": "Grilled Fish",
+    "candidate": "Vanilla Frosting",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T030",
+    "cart_product": "Falafel Sandwich",
+    "candidate": "Chocolate Syrup",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T031",
+    "cart_product": "Chicken Biryani",
+    "candidate": "Whipped Cream",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T032",
+    "cart_product": "Cheese Pizza",
+    "candidate": "Caramel Dessert Sauce",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T033",
+    "cart_product": "Chicken Wings",
+    "candidate": "Cupcake Sprinkles",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T034",
+    "cart_product": "Kebab Platter",
+    "candidate": "Chocolate Chips for Baking",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T035",
+    "cart_product": "Hummus Plate",
+    "candidate": "Birthday Balloons",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T036",
+    "cart_product": "Grilled Chicken",
+    "candidate": "Chocolate Ganache",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T037",
+    "cart_product": "Shawarma Plate",
+    "candidate": "Marshmallow Dessert Topping",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T038",
+    "cart_product": "Chicken Sandwich",
+    "candidate": "Cake Icing",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T039",
+    "cart_product": "Steak Dinner",
+    "candidate": "Raspberry Cake Glaze",
+    "expected": "unrelated",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T040",
+    "cart_product": "Cold Brew Coffee",
+    "candidate": "Unspecified Restaurant Special",
+    "expected": "uncertain",
+    "domain": "restaurant",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T041",
+    "cart_product": "Dry Spaghetti",
+    "candidate": "Tomato Basil Pasta Sauce",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T042",
+    "cart_product": "Ground Coffee",
+    "candidate": "Coffee Filters",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T043",
+    "cart_product": "Laundry Detergent",
+    "candidate": "Fabric Softener",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T044",
+    "cart_product": "Tortilla Wraps",
+    "candidate": "Salsa Dip",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T045",
+    "cart_product": "Rice",
+    "candidate": "Dried Lentils",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T046",
+    "cart_product": "Dishwashing Liquid",
+    "candidate": "Dish Sponge",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T047",
+    "cart_product": "Breakfast Cereal",
+    "candidate": "Milk",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T048",
+    "cart_product": "Bread Loaf",
+    "candidate": "Peanut Butter",
+    "expected": "complement",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T049",
+    "cart_product": "Ground Coffee 250g",
+    "candidate": "Ground Coffee 500g",
+    "expected": "substitute",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T050",
+    "cart_product": "Cow Milk 1L",
+    "candidate": "Lactose Free Cow Milk 1L",
+    "expected": "substitute",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T051",
+    "cart_product": "Olive Oil Brand A",
+    "candidate": "Olive Oil Brand B",
+    "expected": "substitute",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T052",
+    "cart_product": "White Rice 1kg",
+    "candidate": "Basmati Rice 1kg",
+    "expected": "substitute",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T053",
+    "cart_product": "Powder Laundry Detergent",
+    "candidate": "Liquid Laundry Detergent",
+    "expected": "substitute",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T054",
+    "cart_product": "Tomato Ketchup Brand A",
+    "candidate": "Tomato Ketchup Brand B",
+    "expected": "substitute",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T055",
+    "cart_product": "Dishwashing Liquid",
+    "candidate": "Printer Ink Cartridge",
+    "expected": "unrelated",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T056",
+    "cart_product": "Pasta Sauce",
+    "candidate": "AA Batteries",
+    "expected": "unrelated",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T057",
+    "cart_product": "Flour",
+    "candidate": "Shower Curtain Rings",
+    "expected": "unrelated",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T058",
+    "cart_product": "Frozen Peas",
+    "candidate": "Car Phone Mount",
+    "expected": "unrelated",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T059",
+    "cart_product": "Toilet Paper",
+    "candidate": "Chocolate Baking Chips",
+    "expected": "unrelated",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T060",
+    "cart_product": "Generic Seasoning Mix",
+    "candidate": "Unlabeled Sauce Packet",
+    "expected": "uncertain",
+    "domain": "grocery_household",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T061",
+    "cart_product": "USB-C Laptop",
+    "candidate": "USB-C Compatible Docking Station",
+    "expected": "complement",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T062",
+    "cart_product": "Digital Camera",
+    "candidate": "Memory Card Compatible with Camera",
+    "expected": "complement",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T063",
+    "cart_product": "Wireless Mouse",
+    "candidate": "AA Batteries for Mouse",
+    "expected": "complement",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T064",
+    "cart_product": "Smartphone Model A",
+    "candidate": "Case Designed for Smartphone Model A",
+    "expected": "complement",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T065",
+    "cart_product": "Laptop",
+    "candidate": "Laptop Stand",
+    "expected": "complement",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T066",
+    "cart_product": "Mirrorless Camera",
+    "candidate": "Camera Cleaning Kit",
+    "expected": "complement",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T067",
+    "cart_product": "Bluetooth Headphones Model X",
+    "candidate": "Bluetooth Headphones Model Y",
+    "expected": "substitute",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T068",
+    "cart_product": "Laptop 14-inch Model A",
+    "candidate": "Laptop 14-inch Model B",
+    "expected": "substitute",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T069",
+    "cart_product": "USB-C Charging Cable 1m",
+    "candidate": "USB-C Charging Cable 2m",
+    "expected": "substitute",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T070",
+    "cart_product": "Gaming Keyboard A",
+    "candidate": "Gaming Keyboard B",
+    "expected": "substitute",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T071",
+    "cart_product": "Wireless Router",
+    "candidate": "Hair Conditioner",
+    "expected": "unrelated",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T072",
+    "cart_product": "USB Flash Drive",
+    "candidate": "Cooking Spatula",
+    "expected": "unrelated",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T073",
+    "cart_product": "Laptop Power Adapter",
+    "candidate": "Chocolate Sauce",
+    "expected": "unrelated",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T074",
+    "cart_product": "Smartphone Charger",
+    "candidate": "Garden Shovel",
+    "expected": "unrelated",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T075",
+    "cart_product": "Phone Model X",
+    "candidate": "Unspecified Phone Case",
+    "expected": "uncertain",
+    "domain": "electronics",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T076",
+    "cart_product": "Face Cleanser",
+    "candidate": "Facial Moisturizer",
+    "expected": "complement",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T077",
+    "cart_product": "Shampoo",
+    "candidate": "Rinse-out Conditioner",
+    "expected": "complement",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T078",
+    "cart_product": "Toothbrush",
+    "candidate": "Toothpaste",
+    "expected": "complement",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T079",
+    "cart_product": "Nail Polish",
+    "candidate": "Nail Polish Remover",
+    "expected": "complement",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T080",
+    "cart_product": "Electric Toothbrush",
+    "candidate": "Compatible Replacement Brush Heads",
+    "expected": "complement",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T081",
+    "cart_product": "Hair Dye Kit",
+    "candidate": "Protective Gloves",
+    "expected": "complement",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T082",
+    "cart_product": "Facial Sunscreen Brand A SPF50",
+    "candidate": "Facial Sunscreen Brand B SPF50",
+    "expected": "substitute",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T083",
+    "cart_product": "Shampoo Brand A",
+    "candidate": "Shampoo Brand B",
+    "expected": "substitute",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T084",
+    "cart_product": "Moisturizing Face Cream A",
+    "candidate": "Moisturizing Face Cream B",
+    "expected": "substitute",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T085",
+    "cart_product": "Manual Toothbrush Soft",
+    "candidate": "Manual Toothbrush Medium",
+    "expected": "substitute",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T086",
+    "cart_product": "Lip Balm Brand A",
+    "candidate": "Lip Balm Brand B",
+    "expected": "substitute",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T087",
+    "cart_product": "Face Wash",
+    "candidate": "USB-C Power Bank",
+    "expected": "unrelated",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T088",
+    "cart_product": "Conditioner",
+    "candidate": "Printer Paper",
+    "expected": "unrelated",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T089",
+    "cart_product": "Body Lotion",
+    "candidate": "Laptop Adapter",
+    "expected": "unrelated",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T090",
+    "cart_product": "Hair Styling Device",
+    "candidate": "Unknown Connector Accessory",
+    "expected": "uncertain",
+    "domain": "personal_care",
+    "language": "en-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T091",
+    "cart_product": "شاورما لحم",
+    "candidate": "مخلل لفت",
+    "expected": "complement",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T092",
+    "cart_product": "منسف أردني",
+    "candidate": "لبن جميد إضافي",
+    "expected": "complement",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T093",
+    "cart_product": "برغر دجاج",
+    "candidate": "صوص ثوم",
+    "expected": "complement",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T094",
+    "cart_product": "Chicken Shawarma",
+    "candidate": "بطاطا ودجز",
+    "expected": "complement",
+    "domain": "arabic_mixed",
+    "language": "en-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T095",
+    "cart_product": "هاتف سامسونج موديل A",
+    "candidate": "غطاء مخصص لموديل A",
+    "expected": "complement",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T096",
+    "cart_product": "شاورما دجاج",
+    "candidate": "شاورما لحم",
+    "expected": "substitute",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T097",
+    "cart_product": "عصير برتقال طبيعي",
+    "candidate": "عصير تفاح طبيعي",
+    "expected": "substitute",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T098",
+    "cart_product": "شامبو ماركة أ",
+    "candidate": "Shampoo Brand B",
+    "expected": "substitute",
+    "domain": "arabic_mixed",
+    "language": "ar-en",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T099",
+    "cart_product": "كنافة بالجبنة",
+    "candidate": "معجون أسنان",
+    "expected": "unrelated",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  },
+  {
+    "id": "T100",
+    "cart_product": "شاورما دجاج",
+    "candidate": "صوص شوكولاتة للحلويات",
+    "expected": "unrelated",
+    "domain": "arabic_mixed",
+    "language": "ar-ar",
+    "label_source": "synthetic_proposed"
+  }
+]

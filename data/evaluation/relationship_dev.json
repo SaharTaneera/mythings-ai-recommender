@@ -1,0 +1,182 @@
+[
+  {
+    "id": "D001",
+    "cart_product": "Chicken Shawarma",
+    "candidate": "Hummus",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D002",
+    "cart_product": "Margherita Pizza",
+    "candidate": "Orange Juice",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D003",
+    "cart_product": "Pasta",
+    "candidate": "Tomato Pasta Sauce",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D004",
+    "cart_product": "Pasta",
+    "candidate": "Another Brand of Pasta",
+    "expected": "substitute",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D005",
+    "cart_product": "Coffee",
+    "candidate": "Tea",
+    "expected": "substitute",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D006",
+    "cart_product": "Shampoo",
+    "candidate": "Hair Conditioner",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D007",
+    "cart_product": "Shampoo",
+    "candidate": "Phone Charger",
+    "expected": "unrelated",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D008",
+    "cart_product": "Laptop",
+    "candidate": "Laptop Sleeve",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D009",
+    "cart_product": "Laptop",
+    "candidate": "Another Laptop",
+    "expected": "substitute",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D010",
+    "cart_product": "Camera",
+    "candidate": "Compatible Memory Card",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D011",
+    "cart_product": "Camera",
+    "candidate": "Chocolate Bar",
+    "expected": "unrelated",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D012",
+    "cart_product": "شاورما دجاج",
+    "candidate": "مخلل خيار",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D013",
+    "cart_product": "برجر لحم",
+    "candidate": "بطاطا مقلية",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D014",
+    "cart_product": "شامبو للشعر",
+    "candidate": "بلسم للشعر",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D015",
+    "cart_product": "هاتف ذكي",
+    "candidate": "غطاء هاتف متوافق",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D016",
+    "cart_product": "هاتف ذكي",
+    "candidate": "هاتف ذكي آخر",
+    "expected": "substitute",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D017",
+    "cart_product": "منسف",
+    "candidate": "صوص شوكولاتة للحلويات",
+    "expected": "unrelated",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D018",
+    "cart_product": "Chicken Burger",
+    "candidate": "ثومية",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D019",
+    "cart_product": "Pasta",
+    "candidate": "صوص شوكولاتة",
+    "expected": "unrelated",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  },
+  {
+    "id": "D020",
+    "cart_product": "غسول وجه",
+    "candidate": "مرطب وجه",
+    "expected": "complement",
+    "domain": "mixed_development",
+    "language": "mixed",
+    "label_source": "synthetic_development"
+  }
+]

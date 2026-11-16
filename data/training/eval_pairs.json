@@ -1,0 +1,98 @@
+[
+  {
+    "domain": "food",
+    "cart_product": "Pasta / معكرونة",
+    "candidate": "Garlic Bread / خبز بالثوم",
+    "label": 1
+  },
+  {
+    "domain": "food",
+    "cart_product": "Pasta / معكرونة",
+    "candidate": "Parmesan Cheese / جبنة بارميزان",
+    "label": 1
+  },
+  {
+    "domain": "food",
+    "cart_product": "Pasta / معكرونة",
+    "candidate": "Another Pasta / معكرونة أخرى",
+    "label": 0
+  },
+  {
+    "domain": "food",
+    "cart_product": "Pasta / معكرونة",
+    "candidate": "Chocolate Syrup / شراب شوكولاتة",
+    "label": 0
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Digital Camera / كاميرا رقمية",
+    "candidate": "Camera Strap / حزام كاميرا",
+    "label": 1
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Digital Camera / كاميرا رقمية",
+    "candidate": "Compatible Memory Card / بطاقة ذاكرة مناسبة",
+    "label": 1
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Digital Camera / كاميرا رقمية",
+    "candidate": "Another Camera / كاميرا أخرى",
+    "label": 0
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Digital Camera / كاميرا رقمية",
+    "candidate": "Face Cream / كريم وجه",
+    "label": 0
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Toothbrush / فرشاة أسنان",
+    "candidate": "Toothpaste / معجون أسنان",
+    "label": 1
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Toothbrush / فرشاة أسنان",
+    "candidate": "Dental Floss / خيط أسنان",
+    "label": 1
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Toothbrush / فرشاة أسنان",
+    "candidate": "Another Toothbrush / فرشاة أخرى",
+    "label": 0
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Toothbrush / فرشاة أسنان",
+    "candidate": "Coffee Filters / فلاتر قهوة",
+    "label": 0
+  },
+  {
+    "domain": "household",
+    "cart_product": "Printer / طابعة",
+    "candidate": "Compatible Ink Cartridge / خرطوشة حبر مناسبة",
+    "label": 1
+  },
+  {
+    "domain": "household",
+    "cart_product": "Printer / طابعة",
+    "candidate": "Printer Paper / ورق طباعة",
+    "label": 1
+  },
+  {
+    "domain": "household",
+    "cart_product": "Printer / طابعة",
+    "candidate": "Another Printer / طابعة أخرى",
+    "label": 0
+  },
+  {
+    "domain": "household",
+    "cart_product": "Printer / طابعة",
+    "candidate": "Hair Conditioner / بلسم شعر",
+    "label": 0
+  }
+]

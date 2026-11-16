@@ -1,0 +1,21 @@
+﻿id,cart_product,candidate,expected,domain,language,label_source,predicted,correct,latency_seconds
+D001,Chicken Shawarma,Hummus,complement,mixed_development,mixed,synthetic_development,complement,True,0.8361
+D002,Margherita Pizza,Orange Juice,complement,mixed_development,mixed,synthetic_development,complement,True,0.4327
+D003,Pasta,Tomato Pasta Sauce,complement,mixed_development,mixed,synthetic_development,complement,True,0.3888
+D004,Pasta,Another Brand of Pasta,substitute,mixed_development,mixed,synthetic_development,uncertain,False,0.3579
+D005,Coffee,Tea,substitute,mixed_development,mixed,synthetic_development,uncertain,False,0.3636
+D006,Shampoo,Hair Conditioner,complement,mixed_development,mixed,synthetic_development,complement,True,0.3489
+D007,Shampoo,Phone Charger,unrelated,mixed_development,mixed,synthetic_development,unrelated,True,0.363
+D008,Laptop,Laptop Sleeve,complement,mixed_development,mixed,synthetic_development,complement,True,0.3446
+D009,Laptop,Another Laptop,substitute,mixed_development,mixed,synthetic_development,substitute,True,0.3608
+D010,Camera,Compatible Memory Card,complement,mixed_development,mixed,synthetic_development,complement,True,0.3636
+D011,Camera,Chocolate Bar,unrelated,mixed_development,mixed,synthetic_development,unrelated,True,0.3406
+D012,شاورما دجاج,مخلل خيار,complement,mixed_development,mixed,synthetic_development,complement,True,0.3554
+D013,برجر لحم,بطاطا مقلية,complement,mixed_development,mixed,synthetic_development,complement,True,0.3711
+D014,شامبو للشعر,بلسم للشعر,complement,mixed_development,mixed,synthetic_development,complement,True,0.3749
+D015,هاتف ذكي,غطاء هاتف متوافق,complement,mixed_development,mixed,synthetic_development,complement,True,0.3398
+D016,هاتف ذكي,هاتف ذكي آخر,substitute,mixed_development,mixed,synthetic_development,substitute,True,0.3785
+D017,منسف,صوص شوكولاتة للحلويات,unrelated,mixed_development,mixed,synthetic_development,unrelated,True,0.3621
+D018,Chicken Burger,ثومية,complement,mixed_development,mixed,synthetic_development,complement,True,0.3555
+D019,Pasta,صوص شوكولاتة,unrelated,mixed_development,mixed,synthetic_development,unrelated,True,0.357
+D020,غسول وجه,مرطب وجه,complement,mixed_development,mixed,synthetic_development,complement,True,0.3718

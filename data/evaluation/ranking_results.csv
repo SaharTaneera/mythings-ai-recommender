@@ -1,0 +1,19 @@
+﻿scenario,model,precision_at_3,ndcg_at_3,coverage_at_3,false_recommendations,latency_seconds,recommended_ids,recommended_names
+Burger meal,E5 only,0.3333333333333333,0.23463936301137822,1,2,0.2299815000151284,a5|a4|a3,Chicken Burger | Chocolate Dessert Sauce | Pepsi
+Burger meal,Qwen only,1.0,1.0,1,0,9.687513300013961,a1|a2|a3,French Fries | Garlic Sauce | Pepsi
+Burger meal,Qwen + E5,1.0,1.0,1,0,9.7467266000167,a3|a1|a2,Pepsi | French Fries | Garlic Sauce
+Mixed restaurant cart,E5 only,0.6666666666666666,0.5307212739772434,1,1,0.09403509998810478,b4|b1|b3,Beef Shawarma | French Fries | Cola
+Mixed restaurant cart,Qwen only,1.0,1.0,1,0,3.873590900009731,b1|b2|b3,French Fries | Garlic Sauce | Cola
+Mixed restaurant cart,Qwen + E5,1.0,1.0,1,0,3.9615741999878082,b1|b3|b2,French Fries | Cola | Garlic Sauce
+Pasta dinner,E5 only,0.6666666666666666,0.5307212739772434,1,1,0.0687243000138551,d4|d3|d1,Chocolate Dessert Sauce | Fresh Basil | Tomato Pasta Sauce
+Pasta dinner,Qwen only,1.0,1.0,1,0,1.8924200000183191,d1|d2|d3,Tomato Pasta Sauce | Parmesan Cheese | Fresh Basil
+Pasta dinner,Qwen + E5,1.0,1.0,1,0,1.948308500024723,d3|d1|d2,Fresh Basil | Tomato Pasta Sauce | Parmesan Cheese
+Hair care,E5 only,0.6666666666666666,0.7039180890341347,1,1,0.0627946000022348,e2|e4|e1,Hair Mask | Phone Charger | Hair Conditioner
+Hair care,Qwen only,1.0,1.0,1,0,1.9432699999888428,e1|e2|e3,Hair Conditioner | Hair Mask | Leave-in Conditioner
+Hair care,Qwen + E5,1.0,1.0,1,0,2.001431299984688,e2|e1|e3,Hair Mask | Hair Conditioner | Leave-in Conditioner
+Laptop accessories,E5 only,0.6666666666666666,0.7653606369886217,1,1,0.06683739999425597,f1|f2|f4,Laptop Sleeve for 14-inch Laptop | Adjustable Laptop Stand | Another 14-inch Laptop
+Laptop accessories,Qwen only,1.0,1.0,1,0,1.893794599978719,f1|f2|f3,Laptop Sleeve for 14-inch Laptop | Adjustable Laptop Stand | Wireless Mouse
+Laptop accessories,Qwen + E5,1.0,1.0,1,0,1.9601856999797747,f1|f2|f3,Laptop Sleeve for 14-inch Laptop | Adjustable Laptop Stand | Wireless Mouse
+Arabic shawarma,E5 only,0.3333333333333333,0.23463936301137822,1,2,0.06576550001045689,g5|g4|g1,صوص شوكولاتة للحلويات | شاورما لحم | ثومية
+Arabic shawarma,Qwen only,1.0,1.0,1,0,1.8926152000203729,g1|g2|g3,ثومية | بطاطا مقلية | بيبسي
+Arabic shawarma,Qwen + E5,1.0,1.0,1,0,1.9557514000334777,g1|g2|g3,ثومية | بطاطا مقلية | بيبسي

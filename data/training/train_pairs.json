@@ -1,0 +1,194 @@
+[
+  {
+    "domain": "food",
+    "cart_product": "Chicken Shawarma / شاورما دجاج",
+    "candidate": "Garlic Sauce / ثومية",
+    "label": 1
+  },
+  {
+    "domain": "food",
+    "cart_product": "Chicken Shawarma / شاورما دجاج",
+    "candidate": "French Fries / بطاطا مقلية",
+    "label": 1
+  },
+  {
+    "domain": "food",
+    "cart_product": "Chicken Shawarma / شاورما دجاج",
+    "candidate": "Beef Shawarma / شاورما لحم",
+    "label": 0
+  },
+  {
+    "domain": "food",
+    "cart_product": "Chicken Shawarma / شاورما دجاج",
+    "candidate": "Chocolate Topping / صوص شوكولاتة",
+    "label": 0
+  },
+  {
+    "domain": "food",
+    "cart_product": "Beef Burger / برجر لحم",
+    "candidate": "French Fries / بطاطا مقلية",
+    "label": 1
+  },
+  {
+    "domain": "food",
+    "cart_product": "Beef Burger / برجر لحم",
+    "candidate": "Cola / مشروب غازي",
+    "label": 1
+  },
+  {
+    "domain": "food",
+    "cart_product": "Beef Burger / برجر لحم",
+    "candidate": "Chicken Burger / برجر دجاج",
+    "label": 0
+  },
+  {
+    "domain": "food",
+    "cart_product": "Beef Burger / برجر لحم",
+    "candidate": "Cake Frosting / كريمة كيك",
+    "label": 0
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "USB-C Smartphone / هاتف USB-C",
+    "candidate": "USB-C Charging Cable / سلك شحن USB-C",
+    "label": 1
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "USB-C Smartphone / هاتف USB-C",
+    "candidate": "Phone Case / غطاء هاتف",
+    "label": 1
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "USB-C Smartphone / هاتف USB-C",
+    "candidate": "Another Smartphone / هاتف آخر",
+    "label": 0
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "USB-C Smartphone / هاتف USB-C",
+    "candidate": "Lightning Cable / سلك لايتنينغ",
+    "label": 0
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Laptop / حاسوب محمول",
+    "candidate": "Wireless Mouse / فأرة لاسلكية",
+    "label": 1
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Laptop / حاسوب محمول",
+    "candidate": "Laptop Sleeve / حقيبة لابتوب",
+    "label": 1
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Laptop / حاسوب محمول",
+    "candidate": "Another Laptop / لابتوب آخر",
+    "label": 0
+  },
+  {
+    "domain": "electronics",
+    "cart_product": "Laptop / حاسوب محمول",
+    "candidate": "Shampoo / شامبو",
+    "label": 0
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Shampoo / شامبو",
+    "candidate": "Hair Conditioner / بلسم للشعر",
+    "label": 1
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Shampoo / شامبو",
+    "candidate": "Hair Mask / ماسك للشعر",
+    "label": 1
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Shampoo / شامبو",
+    "candidate": "Another Shampoo / شامبو آخر",
+    "label": 0
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Shampoo / شامبو",
+    "candidate": "Phone Charger / شاحن هاتف",
+    "label": 0
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Facial Cleanser / غسول وجه",
+    "candidate": "Face Moisturizer / مرطب وجه",
+    "label": 1
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Facial Cleanser / غسول وجه",
+    "candidate": "Facial Sunscreen / واقي شمس للوجه",
+    "label": 1
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Facial Cleanser / غسول وجه",
+    "candidate": "Another Facial Cleanser / غسول آخر",
+    "label": 0
+  },
+  {
+    "domain": "personal_care",
+    "cart_product": "Facial Cleanser / غسول وجه",
+    "candidate": "USB Cable / سلك USB",
+    "label": 0
+  },
+  {
+    "domain": "household",
+    "cart_product": "Vacuum Cleaner / مكنسة كهربائية",
+    "candidate": "Compatible Dust Bags / أكياس غبار مناسبة",
+    "label": 1
+  },
+  {
+    "domain": "household",
+    "cart_product": "Vacuum Cleaner / مكنسة كهربائية",
+    "candidate": "Vacuum Filter / فلتر مكنسة",
+    "label": 1
+  },
+  {
+    "domain": "household",
+    "cart_product": "Vacuum Cleaner / مكنسة كهربائية",
+    "candidate": "Another Vacuum Cleaner / مكنسة أخرى",
+    "label": 0
+  },
+  {
+    "domain": "household",
+    "cart_product": "Vacuum Cleaner / مكنسة كهربائية",
+    "candidate": "Face Serum / سيروم وجه",
+    "label": 0
+  },
+  {
+    "domain": "household",
+    "cart_product": "Coffee Maker / ماكينة قهوة",
+    "candidate": "Compatible Coffee Filters / فلاتر قهوة مناسبة",
+    "label": 1
+  },
+  {
+    "domain": "household",
+    "cart_product": "Coffee Maker / ماكينة قهوة",
+    "candidate": "Ground Coffee / قهوة مطحونة",
+    "label": 1
+  },
+  {
+    "domain": "household",
+    "cart_product": "Coffee Maker / ماكينة قهوة",
+    "candidate": "Another Coffee Maker / ماكينة أخرى",
+    "label": 0
+  },
+  {
+    "domain": "household",
+    "cart_product": "Coffee Maker / ماكينة قهوة",
+    "candidate": "Phone Case / غطاء هاتف",
+    "label": 0
+  }
+]
