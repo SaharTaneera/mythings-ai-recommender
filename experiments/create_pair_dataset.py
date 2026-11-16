@@ -132,7 +132,7 @@ def main():
 
     print(f"Training pairs: {len(training)}")
     print(f"Evaluation pairs: {len(evaluation)}")
-    print("Saved dataset files in data/")
+    print("Saved dataset files in data/training/")
 
 
 if __name__ == "__main__":
