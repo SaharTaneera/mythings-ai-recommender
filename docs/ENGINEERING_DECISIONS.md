@@ -207,3 +207,48 @@ See [Docker instructions](DOCKER.md), [C# integration example](../integration/do
 ## 9. Bottom line
 
 The available evidence supports a **working conceptual architecture and promising filtering behavior on small synthetic cases**, not a claim of production recommendation quality. The engineering contribution is the explicit separation of relationship verification from semantic ranking, the bilingual metadata pipeline, reproducible evaluation artifacts, API boundary, and transparent statement of limitations. The most important next step for meaningful real-world value is **representative merchant/catalog data and rigorous review of false-positive complements**, followed by latency and online product metrics.
+
+## 10. Latency reduction strategy (proposed; not yet benchmarked)
+
+### 10.1 Identify the bottleneck before changing the pipeline
+
+The current service sends **one synchronous Qwen/Ollama request for each cart-product/candidate pair**. With 2 items in the cart and 20 eligible candidates, that can mean 40 classification calls before E5 ranks accepted candidates. Response time therefore grows approximately with the number of evaluated pairs, subject to caching, model warm-up, and actual inference conditions.
+
+Measure separately: eligibility filtering, Qwen cold vs warm inference, per-pair median/P95 latency, number of calls, cache-hit rate, E5 model initialization and encoding, and full HTTP response time. Compare equal hardware and model versions, recording whether caches were cleared. These are **future measurements**, not values inferred from the small synthetic benchmark.
+
+### 10.2 Candidate optimizations and tradeoffs
+
+| Optimization | Potential latency benefit | Risk / necessary validation | Suggested priority |
+|---|---|---|---|
+| **Keep Ollama/Qwen loaded and use GPU acceleration** | Reduce model loading and token-generation time | GPU memory limits; current Compose configuration does not request GPU access; CPU-only may exceed the 30-second pair timeout | High |
+| **Reuse successful cached pair judgments** | Avoid redundant calls for recurring product pairs | Current process-local `lru_cache` also stores `uncertain` when Ollama fails; distinguish actual uncertainty from transient failures; consider bounded TTL or Redis only if needed | High |
+| **Reduce candidate count with trusted business constraints** | Fewer Qwen comparisons without introducing approximate semantic filtering | Must not accidentally remove legitimate options; merchant authorization, stock, cart exclusions, and attribute compatibility belong to the commerce layer | High |
+| **Control simultaneous Qwen requests** | May improve wall-clock time for independent comparisons | Too much concurrency can saturate one GPU, queue requests, and increase P95; compare 1, 2, and 4 workers under load | Medium |
+| **Classify multiple candidates in one structured LLM response** | Lower repeated prompt/HTTP overhead | Larger prompts, truncated output, missed candidate IDs, cross-item contamination; validate parsing and accuracy | Medium / experimental |
+| **Precompute/cache E5 product embeddings** | Reduce repeated encoding for largely static catalogs | Need product versioning, invalidation, and consistent model version; does not address Qwen as dominant bottleneck | Medium |
+| **Evaluate a smaller/quantized language model** | Potentially faster inference and smaller hardware footprint | Possible degradation in Arabic understanding, substitute recall, and complement precision; compare on a genuinely held-out, human-reviewed test set | Medium / experimental |
+| **E5 preliminary shortlist before Qwen** | Fewer expensive Qwen calls on large catalogs | **Candidate-recall failure:** E5 may drop true complements before Qwen sees them; not recommended as an unvalidated default | Research only |
+
+### 10.3 Why an E5-first shortlist is risky
+
+The saved six-scenario ranking results show that **E5 alone** placed **Chicken Burger** and **Chocolate Dessert Sauce** above useful accompaniments in the *Beef Burger* scenario. A top-three E5 shortlist would pass those two unsuitable candidates and **exclude Garlic Sauce and French Fries**. Qwen could reject the bad candidates, but it could **not recover products already discarded by E5**.
+
+This is a retrieval **recall** problem, not simply a final ranking error. A shortlist of ten or twenty might help at larger catalog sizes, but we have **not measured** its retained-complement recall. The current six scenarios each have only five candidates, so they cannot establish an appropriate shortlist size.
+
+**Current recommendation:** Keep **Qwen filtering before E5 ranking** in the evaluated submission pipeline. Explore E5 preselection only in a separate experiment using larger, independently labeled candidate pools. Measure `Recall@M` of known complementary candidates for several shortlist sizes alongside end-to-end latency and final Precision@3/NDCG@3. Do not promote an optimization that causes material recall loss.
+
+### 10.4 Proposed implementation and test sequence
+
+1. Establish cold-start and warm-cache latency baselines for carts with 1, 2, and 3 items and candidate pools of 5, 20, and 100 products. Record Qwen calls, median/P95, total response time, and hardware configuration.
+2. Fix transient-failure caching without changing semantic labels: cache only validated model responses; log timeouts separately from genuine `uncertain` predictions.
+3. Confirm whether Ollama runs on a compatible GPU; test persistent model loading and the existing Compose configuration on the target machine. Avoid assuming Docker automatically enables GPU acceleration.
+4. Test modest, bounded concurrency and optionally a batched-classification prototype. Re-evaluate classification quality as well as request time; do not assume parallelism guarantees higher throughput.
+5. Cache product embeddings when catalog size justifies it, with explicit invalidation on metadata/model changes.
+6. Only then compare alternate models or first-stage retrieval approaches under **equal recall/quality constraints**.
+
+### 10.5 Quality and operational guardrails
+
+Latency optimization must not hide regressions. Track **complement precision and recall**, **substitute recall** (50% in the reported 100-case benchmark), inappropriate recommendation count, ranking metrics when graded relevance is available, timeout/error rate, model cache hit rate, memory/VRAM, and response-time percentiles. Make a distinction between per-pair inference latency, cached latency, and true end-to-end cart latency.
+
+No latency reduction figures for these proposed optimizations are claimed here. Their impact depends on hardware, candidate volume, caching, and the chosen model. Optimizing the Qwen bottleneck is promising, but deployment decisions require a new benchmark and no unverified loss of useful recommendations.
+
