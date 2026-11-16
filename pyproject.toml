@@ -1,7 +1,7 @@
 [project]
 name = "mythings-ai-recommender"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multilingual cart-aware complementary-product recommendation prototype"
 readme = "README.md"
 authors = [
     { name = "Sahar", email = "taneerasahar@gmail.com" }
