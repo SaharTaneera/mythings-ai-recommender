@@ -41,6 +41,23 @@ Top-K product IDs and heuristic scores
 
 In an intended commerce integration, the host application (for example, a .NET backend) owns catalog data, stock, prices, authorization, and business eligibility. It supplies permitted candidates to the AI service and revalidates recommendations before display. **No live .NET integration is claimed.**
 
+## Choose how to run
+
+**Option A — Docker Compose (recommended for reviewers):** Docker packages the Python API and Ollama as separate services, so Ollama does **not** need to be installed separately on the host. Qwen still must be downloaded **inside** the container, and sufficient hardware is needed.
+
+```powershell
+docker compose up -d --build
+docker compose exec ollama ollama pull qwen2.5:7b
+```
+
+Then open `http://127.0.0.1:8000/docs`. The React demo can be started separately from `frontend/` using `npm install` and `npm run dev`.
+
+See [Docker setup and limitations](docs/DOCKER.md). The Compose deployment is a demonstration; it does not configure GPU acceleration or production security.
+
+**Option B — Manual local installation:** Use Python/uv with an Ollama instance installed on the host, following the instructions below.
+
+For architectural rationale, experimental baselines, actual benchmark scope, tradeoffs, and future improvements, read [Engineering Decisions](docs/ENGINEERING_DECISIONS.md). A [C#/.NET HTTP client example](integration/dotnet/README.md) demonstrates the intended commerce integration boundary; **it is illustrative, not live integration**.
+
 ## Prerequisites
 
 - Python **3.12+**, [uv](https://docs.astral.sh/uv/)
