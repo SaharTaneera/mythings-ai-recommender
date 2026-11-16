@@ -1,6 +1,6 @@
 
 from mythings_ai_recommender.models.relationship_classifier import (
-    classify_relationships,
+    classify_one_relationship,
 )
 from mythings_ai_recommender.schemas.product import Product
 
@@ -32,7 +32,10 @@ candidates = [
     product("106", "Chicken Burger", "برجر دجاج"),
 ]
 
-results = classify_relationships(cart, candidates)
+results = {
+    candidate.id: classify_one_relationship(cart, candidate)
+    for candidate in candidates
+}
 
 print("\nProduct relationship classifications:\n")
 
