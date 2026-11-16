@@ -24,3 +24,6 @@ frontend/dist/
 
 # Virtual environments
 .venv
+
+# Generated model outputs from future experimental runs
+artifacts/
