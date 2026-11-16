@@ -9,7 +9,7 @@ from sentence_transformers import CrossEncoder
 
 
 MODEL_PATH = "artifacts/pairwise_complementarity_v1"
-EVAL_PATH = Path("data/eval_pairs.json")
+EVAL_PATH = Path("data/training/eval_pairs.json")
 
 
 def precision_at_k(ranked, k=2):

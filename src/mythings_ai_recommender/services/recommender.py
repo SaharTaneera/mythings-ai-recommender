@@ -5,7 +5,7 @@ Pipeline:
     1. Resolve cart products from request-provided catalog metadata.
     2. Filter candidates by merchant, cart membership, and duplicate ID.
     3. Keep products classified as complementary by Qwen2.5 7B.
-    4. Rank accepted candidates using multilingual E5 and category signals.
+    4. Rank accepted candidates using multilingual E5 semantic signals.
     5. Return the requested number of product IDs and heuristic scores.
 
 This service does not manage catalog storage, pricing, or inventory.
